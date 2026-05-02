@@ -53,130 +53,138 @@ function getRecent6MonthsDates() {
   const now = new Date();
   for (let i = 5; i >= 0; i--) {
     const d = new Date(now.getFullYear(), now.getMonth() - i - 1, 1);
-    const yyyy = d.getFullYear();
-    const mm = String(d.getMonth() + 1).padStart(2, '0');
-    dates.push(`${yyyy}${mm}`);
+    dates.push(`${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}`);
   }
   return dates;
 }
 
-async function fetchRealPopulation(lawdCd) {
-  const history = [];
+// 실거래가 최근 1개월만 먼저 빠르게 가져오기 (타임아웃 방지)
+async function fetchPopulation(lawdCd) {
   const dates = getRecent6MonthsDates();
-  for (const date of dates) {
-    let pop = 0, hh = 0;
-    try {
+  const history = dates.map(d => ({ month: `${d.substring(0,4)}년 ${parseInt(d.substring(4))}월`, population: 0, households: 0 }));
+  try {
+    // 최근 2달치만 가져오기 (속도 최적화)
+    const recentDates = dates.slice(-2);
+    await Promise.all(recentDates.map(async (date, idx) => {
       const url = `https://apis.data.go.kr/1741000/RegistrationPopulationByRegion/getRegistrationPopulationByRegion?serviceKey=${encodeURIComponent(DATA_GO_KEY)}&pageNo=1&numOfRows=10&base_ymd=${date}&sigunguCd=${lawdCd}`;
-      const res = await axios.get(url, { timeout: 5000 });
-      if (res.data?.response?.body?.items?.item?.length > 0) {
-        pop = parseInt(res.data.response.body.items.item[0].tot_pop_cnt || 0);
-        hh = parseInt(res.data.response.body.items.item[0].hh_cnt || 0);
+      const res = await axios.get(url, { timeout: 4000 });
+      const item = res.data?.response?.body?.items?.item?.[0];
+      if (item) {
+        const histIdx = history.length - 2 + idx;
+        history[histIdx].population = parseInt(item.tot_pop_cnt || 0);
+        history[histIdx].households = parseInt(item.hh_cnt || 0);
       }
-    } catch (_) {}
-    history.push({ month: `${date.substring(0,4)}년 ${parseInt(date.substring(4))}월`, population: pop, households: hh });
-  }
+    }));
+  } catch (_) {}
   return history;
 }
 
-async function fetchRealPriceTrade(lawdCd) {
-  const history = [];
+async function fetchPriceTrade(lawdCd) {
   const dates = getRecent6MonthsDates();
-  for (const date of dates) {
-    let avgPrice = 0;
-    try {
-      const url = `https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade?serviceKey=${encodeURIComponent(DATA_GO_KEY)}&pageNo=1&numOfRows=100&LAWD_CD=${lawdCd}&DEAL_YMD=${date}`;
-      const res = await axios.get(url, { timeout: 5000 });
+  const history = dates.map(d => ({ month: `${d.substring(0,4)}년 ${parseInt(d.substring(4))}월`, saleIndex: 0, jeonseIndex: 0 }));
+  try {
+    // 최근 2달치만 (속도 최적화)
+    const recentDates = dates.slice(-2);
+    await Promise.all(recentDates.map(async (date, idx) => {
+      const url = `https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade?serviceKey=${encodeURIComponent(DATA_GO_KEY)}&pageNo=1&numOfRows=50&LAWD_CD=${lawdCd}&DEAL_YMD=${date}`;
+      const res = await axios.get(url, { timeout: 4000 });
       const items = res.data?.response?.body?.items?.item;
       if (items && Array.isArray(items) && items.length > 0) {
         const total = items.reduce((sum, item) => sum + parseInt((item.dealAmount || '0').replace(/,/g, '')), 0);
-        avgPrice = Math.round(total / items.length);
+        const histIdx = history.length - 2 + idx;
+        history[histIdx].saleIndex = Math.round(total / items.length);
+        history[histIdx].jeonseIndex = Math.round(history[histIdx].saleIndex * 0.6);
       }
-    } catch (_) {}
-    history.push({ month: `${date.substring(0,4)}년 ${parseInt(date.substring(4))}월`, saleIndex: avgPrice, jeonseIndex: Math.round(avgPrice * 0.6) });
-  }
+    }));
+  } catch (_) {}
   return history;
 }
 
-async function fetchRealUnsold(lawdCd) {
-  const history = [];
+async function fetchUnsold(lawdCd) {
   const dates = getRecent6MonthsDates();
+  const history = dates.map(d => ({ month: `${d.substring(0,4)}년 ${parseInt(d.substring(4))}월`, preConstruction: 0, postConstruction: 0 }));
   try {
     const url = `https://kosis.kr/openapi/Param/statisticsParameterData.do?method=getList&apiKey=${KOSIS_KEY}&itmId=T1+&objL1=${lawdCd}&format=json&jsonVD=Y&prdSe=M&newEstPrdCnt=6&orgId=116&tblId=DT_MLTM_5498`;
-    const res = await axios.get(url, { timeout: 5000 });
-    if (Array.isArray(res.data)) {
-      for (const item of res.data) {
-        history.push({
-          month: `${item.PRD_DE.substring(0,4)}년 ${parseInt(item.PRD_DE.substring(4))}월`,
-          preConstruction: parseInt(item.DTVAL_CO || 0),
-          postConstruction: 0
-        });
-      }
+    const res = await axios.get(url, { timeout: 4000 });
+    if (Array.isArray(res.data) && res.data.length > 0) {
+      res.data.forEach((item, i) => {
+        if (i < history.length) {
+          history[i].preConstruction = parseInt(item.DTVAL_CO || 0);
+        }
+      });
     }
   } catch (_) {}
-  if (history.length === 0) {
-    dates.forEach(date => {
-      history.push({ month: `${date.substring(0,4)}년 ${parseInt(date.substring(4))}월`, preConstruction: 0, postConstruction: 0 });
-    });
-  }
   return history;
 }
 
-async function fetchRealNews(cityName) {
+async function fetchNews(cityName) {
   if (!NAVER_ID || !NAVER_SECRET) return [];
   try {
-    const query = encodeURIComponent(`"${cityName}" (기업유치|대규모개발|교통호재|GTX|신공항|국가산단|산단|착공)`);
-    const url = `https://openapi.naver.com/v1/search/news.json?query=${query}&display=8&sort=sim`;
-    const response = await axios.get(url, {
+    const query = encodeURIComponent(`"${cityName}" (기업유치 OR 개발 OR GTX OR 교통 OR 착공)`);
+    const url = `https://openapi.naver.com/v1/search/news.json?query=${query}&display=5&sort=sim`;
+    const res = await axios.get(url, {
       headers: { 'X-Naver-Client-Id': NAVER_ID, 'X-Naver-Client-Secret': NAVER_SECRET },
-      timeout: 5000
+      timeout: 4000
     });
-    let items = response.data.items.filter(item => item.title.includes(cityName) || item.description.includes(cityName));
-    if (items.length === 0) items = response.data.items;
-    return items.slice(0, 4).map((item, idx) => ({
+    return res.data.items.slice(0, 4).map((item, idx) => ({
       title: item.title.replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&amp;/g, '&'),
       date: new Date(item.pubDate).toLocaleDateString('ko-KR'),
-      importance: idx === 0 ? '최상' : (idx === 1 ? '상' : '중'),
+      importance: idx === 0 ? '최상' : idx === 1 ? '상' : '중',
       link: item.link
     }));
-  } catch(_) { return []; }
+  } catch (_) { return []; }
 }
 
+// GET /api/cities - 도시 목록 (기본 정보만, 빠름)
+// GET /api/cities?name=수원시 - 특정 도시 상세 (느림, 상세 클릭 시 호출)
 export default async function handler(req, res) {
-  // CORS 헤더 설정 (아무 브라우저에서나 접근 가능하도록)
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET');
-  
-  if (req.method !== 'GET') {
-    return res.status(405).json({ error: 'Method not allowed' });
-  }
+  if (req.method !== 'GET') return res.status(405).json({ error: 'Method not allowed' });
+
+  const { name } = req.query;
 
   try {
-    const results = [];
-    
+    // 특정 도시 상세 요청
+    if (name) {
+      const city = targetCities.find(c => c.name === name);
+      if (!city) return res.status(404).json({ error: 'City not found' });
+
+      const [demandHistory, priceHistory, supplyHistory, newsData] = await Promise.all([
+        fetchPopulation(city.lawdCd),
+        fetchPriceTrade(city.lawdCd),
+        fetchUnsold(city.lawdCd),
+        fetchNews(city.name)
+      ]);
+
+      const popDiff = (demandHistory[5]?.population || 0) - (demandHistory[4]?.population || 0);
+      const saleDiff = (priceHistory[5]?.saleIndex || 0) - (priceHistory[4]?.saleIndex || 0);
+      const latestUnsold = supplyHistory[5]?.preConstruction || 0;
+      const unsoldDiff = latestUnsold - (supplyHistory[4]?.preConstruction || 0);
+
+      res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate');
+      return res.status(200).json({
+        demand: { history: demandHistory },
+        price: { history: priceHistory },
+        supply: { history: supplyHistory },
+        news: newsData,
+        popDiff,
+        saleDiff,
+        latestUnsold,
+        unsoldDiff
+      });
+    }
+
+    // 전체 도시 목록 (기본 정보만 - 빠름)
+    // 청약 데이터만 한 번 호출
     let applyHomeData = null;
     try {
       const aptUrl = `https://api.odcloud.kr/api/ApplyhomeInfoDetailSvc/v1/getAPTLttotPblancDetail?page=1&perPage=300&serviceKey=${encodeURIComponent(DATA_GO_KEY)}`;
-      const aptRes = await axios.get(aptUrl, { timeout: 8000 });
-      applyHomeData = aptRes.data.data;
+      const aptRes = await axios.get(aptUrl, { timeout: 6000 });
+      applyHomeData = aptRes.data?.data;
     } catch (_) {}
 
-    for (const city of targetCities) {
-      const [demandHistory, priceHistory, supplyHistory, newsData] = await Promise.all([
-        fetchRealPopulation(city.lawdCd),
-        fetchRealPriceTrade(city.lawdCd),
-        fetchRealUnsold(city.lawdCd),
-        fetchRealNews(city.name)
-      ]);
-
-      const popDiff = (demandHistory[5]?.population || 0) - (demandHistory[0]?.population || 0);
-      const demandScore = popDiff > 0;
-      const demandValue = popDiff === 0 ? '데이터 수집중' : (popDiff > 0 ? `+${popDiff.toLocaleString()}명 증가` : `${popDiff.toLocaleString()}명 감소`);
-
-      const latestSupply = (supplyHistory[5]?.preConstruction || 0);
-      const supplyDiff = latestSupply - (supplyHistory[0]?.preConstruction || 0);
-      const supplyScore = supplyDiff <= 0;
-      const supplyValue = latestSupply === 0 ? '데이터 수집중' : `현재 총 ${latestSupply.toLocaleString()}호`;
-
+    const results = targetCities.map(city => {
       let tableData = [];
       if (applyHomeData) {
         const cityApts = applyHomeData.filter(apt => apt.HSSPLY_ADRES?.includes(city.name));
@@ -187,12 +195,6 @@ export default async function handler(req, res) {
       }
       tableData.sort((a, b) => new Date(b.date) - new Date(a.date));
       tableData = tableData.slice(0, 5);
-      const subScore = applyHomeData && tableData.filter(t => t.rate !== '-').length > 0;
-      const subValue = `최근 분양 ${tableData.filter(t => t.rate !== '-').length}건`;
-
-      const saleDiff = (priceHistory[5]?.saleIndex || 0) - (priceHistory[0]?.saleIndex || 0);
-      const priceScore = saleDiff > 0;
-      const priceValue = priceHistory[5]?.saleIndex === 0 ? '데이터 수집중' : (saleDiff > 0 ? `실거래 평균 +${saleDiff.toLocaleString()}만 상승` : `실거래 평균 ${Math.abs(saleDiff).toLocaleString()}만 하락`);
 
       const yearlySupply = [
         { year: 2023, type: '과거 공급', volume: 0 },
@@ -203,32 +205,30 @@ export default async function handler(req, res) {
         { year: 2028, type: '미래 예정', volume: 0 }
       ];
 
-      const isBoomTown = [demandScore, supplyScore, priceScore].filter(Boolean).length >= 2;
-
-      const demandTrendText = popDiff > 0 ? "인구 및 세대수가 꾸준히 유입되며 탄탄한 실수요층을 형성하고 있습니다." : popDiff < 0 ? "최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다." : "인구 데이터 수집 중입니다.";
-      const supplyTrendText = latestSupply === 0 ? "미분양 데이터 수집 중입니다." : supplyDiff <= 0 ? "미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다." : "최근 미분양 물량이 증가하고 있어 향후 공급 리스크가 커지고 있습니다.";
-      const priceTrendText = priceHistory[5]?.saleIndex === 0 ? "매매 실거래 데이터 수집 중입니다." : saleDiff > 0 ? "매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다." : "현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다.";
-
-      const aiSummary = `본 지역(${city.name})은 ${demandTrendText} ${supplyTrendText} 가격 측면에서는 ${priceTrendText}`;
-
-      results.push({
+      return {
         id: city.id, name: city.name, lat: city.lat, lng: city.lng,
-        isBoomTown, aiSummary, news: newsData,
-        demand: { value: demandValue, status: demandScore ? 'good' : 'bad', history: demandHistory },
-        supply: { value: supplyValue, status: supplyScore ? 'good' : 'bad', history: supplyHistory },
+        pop: city.pop,
+        // 상세 데이터는 도시 클릭 시 /api/cities?name=xxx 에서 가져옴
+        isBoomTown: false,
+        aiSummary: '도시를 클릭하면 AI 분석 결과를 확인할 수 있습니다.',
+        news: [],
+        demand: { value: '클릭하여 확인', status: 'neutral', history: [] },
+        supply: { value: '클릭하여 확인', status: 'neutral', history: [] },
         yearlySupply,
-        subscription: { value: subValue, status: subScore ? 'good' : 'bad', tableData },
-        price: { value: priceValue, status: priceScore ? 'good' : 'bad', history: priceHistory }
-      });
-    }
+        subscription: {
+          value: `분양 ${tableData.filter(t => t.date !== '-').length}건`,
+          status: tableData.filter(t => t.date !== '-').length > 0 ? 'good' : 'bad',
+          tableData
+        },
+        price: { value: '클릭하여 확인', status: 'neutral', history: [] }
+      };
+    });
 
-    results.sort((a, b) => (a.isBoomTown === b.isBoomTown) ? (b.pop - a.pop || 0) : (a.isBoomTown ? -1 : 1));
-    
-    // 캐싱 헤더 (1시간마다 갱신)
-    res.setHeader('Cache-Control', 's-maxage=3600, stale-while-revalidate');
+    res.setHeader('Cache-Control', 's-maxage=1800, stale-while-revalidate');
     return res.status(200).json(results);
+
   } catch (error) {
-    console.error('API Handler Error:', error);
+    console.error('API Error:', error.message);
     return res.status(500).json({ error: 'Internal Server Error', message: error.message });
   }
 }
