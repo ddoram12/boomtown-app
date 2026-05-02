@@ -1,0 +1,6161 @@
+[
+  {
+    "id": 1,
+    "name": "수원시",
+    "lat": 37.2636,
+    "lng": 127.0286,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(수원시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "두산위브 더센트럴 수원",
+          "date": "2026-02-27",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "서수원 에피트 센트럴마크(M1BL)",
+          "date": "2025-11-28",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "서수원 에피트 센트럴마크(M2BL)",
+          "date": "2025-11-28",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "엘리프 한신더휴 수원 D3블록(본청약)",
+          "date": "2025-10-31",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "엘리프 한신더휴 수원 C3블록(본청약)",
+          "date": "2025-10-31",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "용인시",
+    "lat": 37.241,
+    "lng": 127.1775,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(용인시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "용인 양지 서희스타힐스 하이뷰",
+          "date": "2026-04-20",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "용인 고림 동문 디 이스트",
+          "date": "2026-04-10",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "용인 플랫폼시티 라온프라이빗 아르디에",
+          "date": "2026-03-13",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "용인 푸르지오 클루센트",
+          "date": "2025-12-19",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "수지자이 에디시온",
+          "date": "2025-12-19",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "고양시",
+    "lat": 37.6583,
+    "lng": 126.832,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(고양시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 2건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "고양 창릉 우미 린 그레니티 공공분양주택(본청약)",
+          "date": "2026-04-30",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "식사 푸르지오 파크센트",
+          "date": "2025-09-26",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "창원시",
+    "lat": 35.2279,
+    "lng": 128.6811,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(창원시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "메트로시티 자산 데시앙",
+          "date": "2026-04-30",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "엘리프 창원",
+          "date": "2026-04-10",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "창원자이 더 스카이",
+          "date": "2026-03-20",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "창원 센트럴 아이파크",
+          "date": "2025-11-28",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "성산 더리브 포레스트",
+          "date": "2025-11-14",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "성남시",
+    "lat": 37.42,
+    "lng": 127.1265,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(성남시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 3건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "더샵 분당센트로",
+          "date": "2025-12-31",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "성남복정1지구 B1블록 복정역 에피트",
+          "date": "2025-11-14",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "더샵 분당티에르원",
+          "date": "2025-10-31",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "name": "화성시",
+    "lat": 37.1995,
+    "lng": 126.8315,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(화성시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 3건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "야목역 서희스타힐스 그랜드힐",
+          "date": "2026-04-06",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "화성 남양뉴타운 우미 린 에듀하이",
+          "date": "2025-11-21",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "화성동탄2지구 C-14블록 6년 분양전환공공임대주택(본청약)",
+          "date": "2025-07-31",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "name": "청주시",
+    "lat": 36.6424,
+    "lng": 127.489,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(청주시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "청주 푸르지오 씨엘리체",
+          "date": "2026-04-10",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "청주지북지구 B1블록 공공분양주택",
+          "date": "2025-11-21",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "두산위브더제니스 청주 센트럴파크",
+          "date": "2025-10-17",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "청주 롯데캐슬 시그니처",
+          "date": "2025-09-26",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "청주 센텀 푸르지오 자이",
+          "date": "2025-07-23",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "name": "부천시",
+    "lat": 37.5034,
+    "lng": 126.766,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(부천시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "인천계양 A9블록 신혼희망타운(공공분양)(본청약)",
+          "date": "2026-04-30",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "e편한세상 부천 어반스퀘어",
+          "date": "2026-04-23",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "부천역 에피트 어바닉",
+          "date": "2026-03-06",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "쌍용 더 플래티넘 온수역",
+          "date": "2026-02-13",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "여월 중앙하이츠 아르비채",
+          "date": "2025-11-24",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "name": "남양주시",
+    "lat": 37.636,
+    "lng": 127.2165,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(남양주시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "남양주왕숙2 A-3블록 공공분양주택(본청약)",
+          "date": "2026-04-30",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "왕숙 아테라 공공분양주택(본청약)",
+          "date": "2026-04-30",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "남양주진접2 지구 A-3블록 신혼희망타운(공공분양)(본청약)",
+          "date": "2025-12-30",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "남양주진접2지구 B-1블록 공공분양(본청약)",
+          "date": "2025-12-30",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "남양주왕숙 A-24블록 신혼희망타운(공공분양)(본청약)",
+          "date": "2025-11-27",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 -11665만 하락",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 56506,
+          "jeonseIndex": 33904
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 56355,
+          "jeonseIndex": 33813
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 57047,
+          "jeonseIndex": 34228
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 58361,
+          "jeonseIndex": 35017
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 53201,
+          "jeonseIndex": 31921
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 44841,
+          "jeonseIndex": 26905
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "천안시",
+    "lat": 36.8151,
+    "lng": 127.1138,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(천안시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "천안 휴먼빌 퍼스트시티(2회차)",
+          "date": "2026-04-24",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "천안 동문 디 이스트 파크시티",
+          "date": "2026-04-24",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "엘리프 성성호수공원 2BL",
+          "date": "2026-04-23",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "엘리프 성성호수공원 1BL",
+          "date": "2026-04-23",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "업성 푸르지오 레이크시티",
+          "date": "2026-04-03",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "전주시",
+    "lat": 35.8242,
+    "lng": 127.148,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(전주시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "골드클래스 시그니처",
+          "date": "2026-04-10",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "북전주 광신프로그레스",
+          "date": "2026-04-03",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "전주 에코시티 더 클래스",
+          "date": "2025-12-23",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "송천 아르티엠 더 숲",
+          "date": "2025-11-14",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "전주 라온프라이빗 퍼스티브",
+          "date": "2025-07-25",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "안산시",
+    "lat": 37.3218,
+    "lng": 126.8308,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(안산시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 청약 없음",
+      "status": "bad",
+      "tableData": []
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "안양시",
+    "lat": 37.3943,
+    "lng": 126.9568,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(안양시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "안양 에버포레 자연앤 e편한세상(A2BL)",
+          "date": "2026-04-30",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "안양 에버포레 자연앤 e편한세상(A1BL)",
+          "date": "2026-04-30",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "힐스테이트 안양펠루스",
+          "date": "2026-03-27",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "안양역 센트럴 아이파크 수자인",
+          "date": "2026-01-23",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "안양자이 헤리티온",
+          "date": "2025-11-21",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "name": "김해시",
+    "lat": 35.2285,
+    "lng": 128.8894,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(김해시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "김해율하 더스카이시티 제니스앤프라우(조합원취소분)",
+          "date": "2025-11-14",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "김해 안동 에피트",
+          "date": "2025-11-07",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "김해진례 C-1블록 공공분양주택",
+          "date": "2025-10-23",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "더샵 신문그리니티 2차",
+          "date": "2025-08-28",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "김해 삼계 동일스위트",
+          "date": "2025-08-01",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 -729만 하락",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 24108,
+          "jeonseIndex": 14465
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 20787,
+          "jeonseIndex": 12472
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 21411,
+          "jeonseIndex": 12847
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 19677,
+          "jeonseIndex": 11806
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 18849,
+          "jeonseIndex": 11309
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 23379,
+          "jeonseIndex": 14027
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "평택시",
+    "lat": 36.9921,
+    "lng": 127.1122,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(평택시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "고덕국제신도시 수자인풍경채 2단지",
+          "date": "2026-04-29",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "고덕국제신도시 수자인풍경채 1단지",
+          "date": "2026-04-29",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "더 플래티넘 파인애비뉴",
+          "date": "2026-04-29",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "고덕신도시 아테라 A-63블록 공공분양주택",
+          "date": "2026-04-17",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "평택화양 서희스타힐스 센트럴파크(조합원 취소분)",
+          "date": "2026-01-23",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 -2302만 하락",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 32818,
+          "jeonseIndex": 19691
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 31074,
+          "jeonseIndex": 18644
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 31979,
+          "jeonseIndex": 19187
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 28437,
+          "jeonseIndex": 17062
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 14613,
+          "jeonseIndex": 8768
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 30516,
+          "jeonseIndex": 18310
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "name": "포항시",
+    "lat": 36.019,
+    "lng": 129.3434,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(포항시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 청약 없음",
+      "status": "bad",
+      "tableData": []
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "name": "제주시",
+    "lat": 33.4996,
+    "lng": 126.5311,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(제주시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 4건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "PH159",
+          "date": "2026-04-20",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "이안 연동스퀘어",
+          "date": "2025-11-27",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "영도갤럭시타운 도련2차",
+          "date": "2025-11-24",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "외도 성원상떼빌",
+          "date": "2025-07-11",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 -1777만 하락",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 40582,
+          "jeonseIndex": 24349
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 38424,
+          "jeonseIndex": 23054
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 38243,
+          "jeonseIndex": 22946
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 22743,
+          "jeonseIndex": 13646
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 36438,
+          "jeonseIndex": 21863
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 38805,
+          "jeonseIndex": 23283
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "name": "파주시",
+    "lat": 37.76,
+    "lng": 126.7799,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(파주시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 2건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "파주금촌 금호어울림(조합원 취소분)",
+          "date": "2026-04-24",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "운정 아이파크 시티",
+          "date": "2025-10-24",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 -1464만 하락",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 38714,
+          "jeonseIndex": 23228
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 39781,
+          "jeonseIndex": 23869
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 36324,
+          "jeonseIndex": 21794
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 42272,
+          "jeonseIndex": 25363
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 35788,
+          "jeonseIndex": 21473
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 37250,
+          "jeonseIndex": 22350
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "name": "의정부시",
+    "lat": 37.738,
+    "lng": 127.0336,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(의정부시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 3건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "의정부역 센트럴 아이파크",
+          "date": "2026-03-26",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "의정부우정 A1블록 공공분양주택(본청약)",
+          "date": "2025-08-28",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "탑석 푸르지오 파크7",
+          "date": "2025-08-25",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 -5349만 하락",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 38929,
+          "jeonseIndex": 23357
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 33923,
+          "jeonseIndex": 20354
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 35085,
+          "jeonseIndex": 21051
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 33981,
+          "jeonseIndex": 20389
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 37437,
+          "jeonseIndex": 22462
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 33580,
+          "jeonseIndex": 20148
+        }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "name": "구미시",
+    "lat": 36.1194,
+    "lng": 128.3445,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(구미시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 2건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "두산위브더제니스 구미(조합원취소분)",
+          "date": "2026-04-17",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "두산위브더제니스 구미",
+          "date": "2025-10-15",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 +1070만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 19169,
+          "jeonseIndex": 11501
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 18984,
+          "jeonseIndex": 11390
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 20752,
+          "jeonseIndex": 12451
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 18394,
+          "jeonseIndex": 11036
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 21516,
+          "jeonseIndex": 12910
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 20239,
+          "jeonseIndex": 12143
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "name": "광명시",
+    "lat": 37.4785,
+    "lng": 126.8642,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(광명시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 2건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "힐스테이트 광명 11",
+          "date": "2025-11-07",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "철산역자이",
+          "date": "2025-09-19",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 +3800만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 79637,
+          "jeonseIndex": 47782
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 79470,
+          "jeonseIndex": 47682
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 89001,
+          "jeonseIndex": 53401
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 91311,
+          "jeonseIndex": 54787
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 84377,
+          "jeonseIndex": 50626
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 83437,
+          "jeonseIndex": 50062
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "name": "진주시",
+    "lat": 35.1803,
+    "lng": 128.1076,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(진주시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 1건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "힐스테이트 평거 센트럴",
+          "date": "2026-04-10",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 +1419만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 31390,
+          "jeonseIndex": 18834
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 32243,
+          "jeonseIndex": 19346
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 34364,
+          "jeonseIndex": 20618
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 32660,
+          "jeonseIndex": 19596
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 33473,
+          "jeonseIndex": 20084
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 32809,
+          "jeonseIndex": 19685
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "name": "원주시",
+    "lat": 37.3422,
+    "lng": 127.9201,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(원주시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 1건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "원주역 우미 린 더 스텔라 ",
+          "date": "2025-08-08",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "name": "아산시",
+    "lat": 36.7898,
+    "lng": 127.0018,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(아산시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 4건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "아산경남아너스빌 랜드마크49",
+          "date": "2026-04-10",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "아산탕정자이 메트로시티(A3BL)",
+          "date": "2026-03-20",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "아산모종 서한이다음 노블리스(A1BL)",
+          "date": "2025-09-19",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "아산탕정 동일하이빌 파크레인",
+          "date": "2025-09-19",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 +683만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 24104,
+          "jeonseIndex": 14462
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 23021,
+          "jeonseIndex": 13813
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 22345,
+          "jeonseIndex": 13407
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 21080,
+          "jeonseIndex": 12648
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 21805,
+          "jeonseIndex": 13083
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 24787,
+          "jeonseIndex": 14872
+        }
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "name": "여수시",
+    "lat": 34.7603,
+    "lng": 127.6622,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(여수시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 4건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "소제지구 A4BL 중흥S-클래스 우미린",
+          "date": "2026-04-24",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "소제지구 A3BL 중흥S-클래스 우미린",
+          "date": "2026-04-24",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "e편한세상 여수 글렌츠",
+          "date": "2026-03-06",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "효성해링턴 플레이스 여수",
+          "date": "2025-10-28",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 +1129만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 22271,
+          "jeonseIndex": 13363
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 22735,
+          "jeonseIndex": 13641
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 22006,
+          "jeonseIndex": 13204
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 23271,
+          "jeonseIndex": 13963
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 23013,
+          "jeonseIndex": 13808
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 23400,
+          "jeonseIndex": 14040
+        }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "name": "익산시",
+    "lat": 35.9482,
+    "lng": 126.9575,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(익산시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 청약 없음",
+      "status": "bad",
+      "tableData": []
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "name": "춘천시",
+    "lat": 37.8813,
+    "lng": 127.7298,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(춘천시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 2건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "춘천 레이크시티 2차 아이파크",
+          "date": "2025-08-22",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "춘천 동문 디 이스트 어반포레",
+          "date": "2025-07-25",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "name": "경산시",
+    "lat": 35.825,
+    "lng": 128.7358,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(경산시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 1건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "경산 상방공원 호반써밋 1단지",
+          "date": "2026-02-26",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 -938만 하락",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 21333,
+          "jeonseIndex": 12800
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 23579,
+          "jeonseIndex": 14147
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 23163,
+          "jeonseIndex": 13898
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 22008,
+          "jeonseIndex": 13205
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 22651,
+          "jeonseIndex": 13591
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 20395,
+          "jeonseIndex": 12237
+        }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "name": "군포시",
+    "lat": 37.3614,
+    "lng": 126.9352,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(군포시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 2건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "군포대야미 A2블록 신혼희망타운(공공분양)(본청약)",
+          "date": "2025-11-28",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "대야미역 금강펜테리움 레이크포레(B1BL)",
+          "date": "2025-07-18",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 -5527만 하락",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 51098,
+          "jeonseIndex": 30659
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 49107,
+          "jeonseIndex": 29464
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 56961,
+          "jeonseIndex": 34177
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 50272,
+          "jeonseIndex": 30163
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 48757,
+          "jeonseIndex": 29254
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 45571,
+          "jeonseIndex": 27343
+        }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "name": "군산시",
+    "lat": 35.9676,
+    "lng": 126.7366,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(군산시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 청약 없음",
+      "status": "bad",
+      "tableData": []
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "name": "하남시",
+    "lat": 37.5392,
+    "lng": 127.2148,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(하남시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 청약 없음",
+      "status": "bad",
+      "tableData": []
+    },
+    "price": {
+      "value": "실거래 평균 +3339만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 98637,
+          "jeonseIndex": 59182
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 99019,
+          "jeonseIndex": 59411
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 100743,
+          "jeonseIndex": 60446
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 110624,
+          "jeonseIndex": 66374
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 97095,
+          "jeonseIndex": 58257
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 101976,
+          "jeonseIndex": 61186
+        }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "name": "순천시",
+    "lat": 34.9506,
+    "lng": 127.4872,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(순천시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 1건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "광양만권경제자유구역 신대배후단지 B-6BL 중흥S-클래스 5단지",
+          "date": "2025-07-22",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 +2643만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 22885,
+          "jeonseIndex": 13731
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 23869,
+          "jeonseIndex": 14321
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 24840,
+          "jeonseIndex": 14904
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 26936,
+          "jeonseIndex": 16162
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 24866,
+          "jeonseIndex": 14920
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 25528,
+          "jeonseIndex": 15317
+        }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "name": "목포시",
+    "lat": 34.8118,
+    "lng": 126.3921,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(목포시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 청약 없음",
+      "status": "bad",
+      "tableData": []
+    },
+    "price": {
+      "value": "실거래 평균 +686만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 19044,
+          "jeonseIndex": 11426
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 18433,
+          "jeonseIndex": 11060
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 20865,
+          "jeonseIndex": 12519
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 18697,
+          "jeonseIndex": 11218
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 20941,
+          "jeonseIndex": 12565
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 19730,
+          "jeonseIndex": 11838
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "name": "강릉시",
+    "lat": 37.7518,
+    "lng": 128.876,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(강릉시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 2건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "강릉 우미 린 더 프리미어",
+          "date": "2026-04-17",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "강릉역 경남아너스빌 더 센트로(조합원 취소분)",
+          "date": "2025-12-26",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 0,
+          "jeonseIndex": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "name": "오산시",
+    "lat": 37.1499,
+    "lng": 127.0772,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(오산시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 4건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "힐스테이트 오산 더퍼스트(조합원 자격상실 및 제명세대)(2회차)",
+          "date": "2026-02-19",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "북오산자이 리버블시티",
+          "date": "2026-01-09",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "오산 세교 우미 린 레이크시티",
+          "date": "2025-09-19",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "힐스테이트 오산 더퍼스트(조합원 자격상실 및 제명세대)",
+          "date": "2025-09-18",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 +1092만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 32870,
+          "jeonseIndex": 19722
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 37973,
+          "jeonseIndex": 22784
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 33863,
+          "jeonseIndex": 20318
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 33995,
+          "jeonseIndex": 20397
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 33880,
+          "jeonseIndex": 20328
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 33962,
+          "jeonseIndex": 20377
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "name": "충주시",
+    "lat": 36.9912,
+    "lng": 127.9258,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(충주시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 1건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "충주연수 경남아너스빌 센터원",
+          "date": "2025-08-07",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 +1225만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 17655,
+          "jeonseIndex": 10593
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 19445,
+          "jeonseIndex": 11667
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 17630,
+          "jeonseIndex": 10578
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 19473,
+          "jeonseIndex": 11684
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 17701,
+          "jeonseIndex": 10621
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 18880,
+          "jeonseIndex": 11328
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "name": "양주시",
+    "lat": 37.7853,
+    "lng": 127.0457,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(양주시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "남양주왕숙2 A-3블록 공공분양주택(본청약)",
+          "date": "2026-04-30",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "왕숙 아테라 공공분양주택(본청약)",
+          "date": "2026-04-30",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "옥정중앙역 대방 디에트르(중상1, 복합1BL)",
+          "date": "2026-04-09",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "더 플래티넘 센트럴포레",
+          "date": "2026-02-13",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "남양주진접2 지구 A-3블록 신혼희망타운(공공분양)(본청약)",
+          "date": "2025-12-30",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 +591만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 30672,
+          "jeonseIndex": 18403
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 28885,
+          "jeonseIndex": 17331
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 32883,
+          "jeonseIndex": 19730
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 30293,
+          "jeonseIndex": 18176
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 28417,
+          "jeonseIndex": 17050
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 31263,
+          "jeonseIndex": 18758
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "name": "이천시",
+    "lat": 37.2722,
+    "lng": 127.4351,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(이천시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 3건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "이천시 장호원읍 5년 공공건설임대주택(카사펠리스이천) 임차인모집",
+          "date": "2026-02-20",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "이천 중리지구 B3블록 금성백조 예미지",
+          "date": "2025-12-12",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "이천 증포5지구 칸타빌 에듀파크",
+          "date": "2025-11-28",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 +1232만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 23918,
+          "jeonseIndex": 14351
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 23688,
+          "jeonseIndex": 14213
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 23567,
+          "jeonseIndex": 14140
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 24057,
+          "jeonseIndex": 14434
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 24151,
+          "jeonseIndex": 14491
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 25150,
+          "jeonseIndex": 15090
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "name": "구리시",
+    "lat": 37.5943,
+    "lng": 127.1296,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(구리시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 매매 실거래가가 뚜렷한 상승 흐름을 보이며 자산 가치 상승 탄력을 받고 있습니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 5건",
+      "status": "good",
+      "tableData": [
+        {
+          "projectName": "구리역 하이니티 리버파크",
+          "date": "2026-02-11",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "구리갈매역세권 A-4블록 6년 분양전환공공임대주택(본청약)",
+          "date": "2025-12-29",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "구리갈매역세권 A-4블록 공공분양주택(본청약)",
+          "date": "2025-12-29",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "중흥S-클래스 힐더포레",
+          "date": "2025-09-19",
+          "rate": "실시간 연동 중"
+        },
+        {
+          "projectName": "구리갈매역세권 A-1블록 신혼희망타운(공공분양)(본청약)",
+          "date": "2025-07-29",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 +3671만 상승",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 66888,
+          "jeonseIndex": 40133
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 68618,
+          "jeonseIndex": 41171
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 73146,
+          "jeonseIndex": 43888
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 67930,
+          "jeonseIndex": 40758
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 70427,
+          "jeonseIndex": 42256
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 70559,
+          "jeonseIndex": 42335
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "name": "안성시",
+    "lat": 37.0079,
+    "lng": 127.2797,
+    "isBoomTown": false,
+    "aiSummary": "본 지역(안성시)은 최근 인구가 감소세에 있어 기반 수요가 다소 정체되어 있습니다. 미분양 물량이 안정적으로 감소(소진)하며 공급 리스크가 해소 중입니다. 가격 측면에서는 현재 매매 실거래가가 보합 또는 하락세를 보이며 자산 가치 상승이 제한적인 국면입니다. (※ 정부 공공 API 권한 동기화 대기 중인 항목은 0으로 표기됩니다.)",
+    "news": [],
+    "demand": {
+      "value": "권한 대기중",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2025년 12월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 1월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 2월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 3월",
+          "population": 0,
+          "households": 0
+        },
+        {
+          "month": "2026년 4월",
+          "population": 0,
+          "households": 0
+        }
+      ]
+    },
+    "supply": {
+      "value": "권한 대기중",
+      "status": "good",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2025년 12월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 1월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 2월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 3월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        },
+        {
+          "month": "2026년 4월",
+          "preConstruction": 0,
+          "postConstruction": 0
+        }
+      ]
+    },
+    "yearlySupply": [
+      {
+        "year": 2023,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2024,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      },
+      {
+        "year": 2025,
+        "type": "과거 공급(준공)",
+        "volume": 0
+      }
+    ],
+    "subscription": {
+      "value": "최근 분양 1건",
+      "status": "bad",
+      "tableData": [
+        {
+          "projectName": "안성 아양지구 B-2블록 금성백조 예미지",
+          "date": "2025-09-19",
+          "rate": "실시간 연동 중"
+        }
+      ]
+    },
+    "price": {
+      "value": "실거래 평균 -1470만 하락",
+      "status": "bad",
+      "history": [
+        {
+          "month": "2025년 11월",
+          "saleIndex": 19823,
+          "jeonseIndex": 11894
+        },
+        {
+          "month": "2025년 12월",
+          "saleIndex": 18535,
+          "jeonseIndex": 11121
+        },
+        {
+          "month": "2026년 1월",
+          "saleIndex": 19337,
+          "jeonseIndex": 11602
+        },
+        {
+          "month": "2026년 2월",
+          "saleIndex": 17471,
+          "jeonseIndex": 10483
+        },
+        {
+          "month": "2026년 3월",
+          "saleIndex": 17097,
+          "jeonseIndex": 10258
+        },
+        {
+          "month": "2026년 4월",
+          "saleIndex": 18353,
+          "jeonseIndex": 11012
+        }
+      ]
+    }
+  }
+]
