@@ -126,8 +126,12 @@ async function fetchNews(cityName) {
       headers: { 'X-Naver-Client-Id': NAVER_ID, 'X-Naver-Client-Secret': NAVER_SECRET },
       timeout: 4000
     });
-    return res.data.items.slice(0, 4).map((item, idx) => ({
-      title: item.title.replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&amp;/g, '&'),
+    // 해당 도시명이 제목에 포함된 것 우선 필터링
+    let items = res.data.items.filter(i => i.title.includes(cityName) || i.description.includes(cityName));
+    if (items.length === 0) items = res.data.items;
+    return items.slice(0, 4).map((item, idx) => ({
+      title: item.title.replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>'),
+      description: item.description.replace(/<[^>]+>/g, '').replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>'),
       date: new Date(item.pubDate).toLocaleDateString('ko-KR'),
       importance: idx === 0 ? '최상' : idx === 1 ? '상' : '중',
       link: item.link

@@ -202,21 +202,24 @@ function App() {
                 {/* 뉴스 */}
                 <div className="detail-section">
                   <h3 style={{ color: '#fff', borderBottom: '1px solid var(--glass-border)', paddingBottom: '0.5rem', marginBottom: '1rem' }}>
-                    📰 핵심 부동산 호재 뉴스 (제목 클릭 시 기사 이동)
+                    📰 개발사업 및 주요 일자리 현황 (제목 클릭 시 기사 이동)
                   </h3>
                   {newsData.length > 0 ? newsData.map((n, i) => (
                     <a key={i} href={n.link} target="_blank" rel="noreferrer" style={{ textDecoration: 'none', display: 'block', marginBottom: '0.8rem' }}>
-                      <div style={{ padding: '1rem', background: 'rgba(255,255,255,0.03)', borderRadius: '8px', borderLeft: `4px solid ${n.importance === '최상' ? 'var(--danger)' : n.importance === '상' ? 'var(--accent-color)' : '#a0aec0'}`, cursor: 'pointer', transition: 'background 0.2s' }}
+                      <div style={{ padding: '1rem 1.2rem', background: 'rgba(255,255,255,0.03)', borderRadius: '10px', borderLeft: `4px solid ${n.importance === '최상' ? 'var(--danger)' : n.importance === '상' ? 'var(--accent-color)' : '#a0aec0'}`, cursor: 'pointer', transition: 'background 0.2s' }}
                         onMouseOver={e => e.currentTarget.style.background = 'rgba(255,255,255,0.08)'}
                         onMouseOut={e => e.currentTarget.style.background = 'rgba(255,255,255,0.03)'}>
-                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.3rem' }}>
-                          <span style={{ fontWeight: 'bold', color: '#fff' }}>{n.title}</span>
-                          <span style={{ fontSize: '0.82rem', color: 'var(--text-muted)', whiteSpace: 'nowrap', marginLeft: '1rem' }}>{n.date}</span>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.5rem' }}>
+                          <span style={{ fontWeight: 'bold', color: '#fff', fontSize: '1rem', lineHeight: '1.4', flex: 1 }}>{n.title}</span>
+                          <span style={{ fontSize: '0.78rem', color: 'var(--text-muted)', whiteSpace: 'nowrap', marginLeft: '1rem', marginTop: '2px' }}>{n.date}</span>
                         </div>
-                        <p style={{ fontSize: '0.78rem', color: '#a0aec0', margin: 0 }}>중요도: <span style={{ color: n.importance === '최상' ? 'var(--danger)' : '#fff' }}>{n.importance}</span></p>
+                        {n.description && (
+                          <p style={{ fontSize: '0.85rem', color: '#a0aec0', margin: '0 0 0.4rem', lineHeight: '1.5' }}>{n.description}</p>
+                        )}
+                        <p style={{ fontSize: '0.75rem', color: n.importance === '최상' ? 'var(--danger)' : 'var(--accent-color)', margin: 0 }}>중요도: {n.importance} · 클릭하여 전체 기사 보기 →</p>
                       </div>
                     </a>
-                  )) : <p style={{ color: 'var(--text-muted)', padding: '1rem' }}>연관 뉴스가 없습니다.</p>}
+                  )) : <p style={{ color: 'var(--text-muted)', padding: '1rem' }}>연관 개발 뉴스가 없습니다.</p>}
                 </div>
 
                 {/* 인구 */}
@@ -242,29 +245,51 @@ function App() {
                   ) : <p style={{ color: 'var(--text-muted)', padding: '1rem' }}>인구 데이터 수집 중 (API 권한 동기화 대기)</p>}
                 </div>
 
-                {/* 공급 바 차트 */}
+                {/* 입주 수급 밸런스 - 연도별 막대그래프 */}
                 <div className="detail-section">
                   <h3 style={{ color: '#fff', borderBottom: '1px solid var(--glass-border)', paddingBottom: '0.5rem', marginBottom: '1rem' }}>
-                    2. 물량 분석 - 연도별 공급 현황
+                    2. 입주 수급 밸런스 - 연도별 공급 세대수 (과거 3년 + 향후 3년)
                   </h3>
-                  {selectedCity.yearlySupply && (
-                    <div style={{ width: '100%', height: 260 }}>
-                      <ResponsiveContainer>
-                        <BarChart data={selectedCity.yearlySupply}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#333" />
-                          <XAxis dataKey="year" stroke="#a0aec0" tickFormatter={v => v+'년'} />
-                          <YAxis stroke="#a0aec0" />
-                          <Tooltip contentStyle={{ backgroundColor: '#1a202c', border: '1px solid #333' }} formatter={v => v.toLocaleString()+'세대'} />
-                          <Legend payload={[{ value: '과거 공급', type: 'square', color: '#eab308' }, { value: '미래 예정', type: 'square', color: '#00f0ff' }]} />
-                          <Bar dataKey="volume" radius={[4, 4, 0, 0]}>
-                            {selectedCity.yearlySupply.map((entry, i) => (
-                              <Cell key={i} fill={entry.type.includes('미래') ? '#00f0ff' : '#eab308'} />
-                            ))}
-                          </Bar>
-                        </BarChart>
-                      </ResponsiveContainer>
-                    </div>
-                  )}
+                  {(() => {
+                    const data = selectedCity.yearlySupply || [];
+                    const hasData = data.some(d => d.volume > 0);
+                    return hasData ? (
+                      <>
+                        <div style={{ width: '100%', height: 280 }}>
+                          <ResponsiveContainer>
+                            <BarChart data={data} margin={{ top: 20, right: 10, left: 10, bottom: 5 }}>
+                              <CartesianGrid strokeDasharray="3 3" stroke="#333" />
+                              <XAxis dataKey="year" stroke="#a0aec0" tickFormatter={v => v+'년'} />
+                              <YAxis stroke="#a0aec0" tickFormatter={v => v.toLocaleString()} />
+                              <Tooltip
+                                contentStyle={{ backgroundColor: '#1a202c', border: '1px solid #333' }}
+                                formatter={(v, name) => [v.toLocaleString()+'세대', name]}
+                                labelFormatter={label => label+'년'}
+                              />
+                              <Legend payload={[{ value: '과거 공급(준공)', type: 'square', color: '#eab308' }, { value: '미래 예정(입주)', type: 'square', color: '#00f0ff' }]} />
+                              <Bar dataKey="volume" name="공급 세대수" radius={[6, 6, 0, 0]} label={{ position: 'top', fill: '#a0aec0', fontSize: 11, formatter: v => v > 0 ? v.toLocaleString() : '' }}>
+                                {data.map((entry, i) => (
+                                  <Cell key={i} fill={entry.type && entry.type.includes('미래') ? '#00f0ff' : '#eab308'} />
+                                ))}
+                              </Bar>
+                            </BarChart>
+                          </ResponsiveContainer>
+                        </div>
+                        <div style={{ marginTop: '1rem', display: 'flex', gap: '1rem' }}>
+                          <div style={{ flex: 1, padding: '0.8rem', background: 'rgba(234,179,8,0.1)', borderRadius: '8px', border: '1px solid #eab308', textAlign: 'center' }}>
+                            <p style={{ color: '#a0aec0', fontSize: '0.78rem', margin: '0 0 0.2rem' }}>과거 3년 합계</p>
+                            <p style={{ color: '#eab308', fontSize: '1.3rem', fontWeight: 'bold', margin: 0 }}>{data.filter(d => d.type?.includes('과거')).reduce((s, d) => s + d.volume, 0).toLocaleString()} 세대</p>
+                          </div>
+                          <div style={{ flex: 1, padding: '0.8rem', background: 'rgba(0,240,255,0.08)', borderRadius: '8px', border: '1px solid #00f0ff', textAlign: 'center' }}>
+                            <p style={{ color: '#a0aec0', fontSize: '0.78rem', margin: '0 0 0.2rem' }}>향후 3년 예정</p>
+                            <p style={{ color: '#00f0ff', fontSize: '1.3rem', fontWeight: 'bold', margin: 0 }}>{data.filter(d => d.type?.includes('미래')).reduce((s, d) => s + d.volume, 0).toLocaleString()} 세대</p>
+                          </div>
+                        </div>
+                      </>
+                    ) : (
+                      <p style={{ color: 'var(--text-muted)', padding: '1rem' }}>입주 공급 데이터 수집 중입니다.</p>
+                    );
+                  })()}
                 </div>
 
                 {/* 미분양 */}
@@ -273,19 +298,44 @@ function App() {
                     3. 재고 분석 - 미분양 누적 현황
                   </h3>
                   {supplyHistory.length > 0 && supplyHistory.some(d => d.preConstruction > 0) ? (
-                    <div style={{ width: '100%', height: 260 }}>
-                      <ResponsiveContainer>
-                        <BarChart data={supplyHistory}>
-                          <CartesianGrid strokeDasharray="3 3" stroke="#333" />
-                          <XAxis dataKey="month" stroke="#a0aec0" tick={{ fontSize: 11 }} />
-                          <YAxis stroke="#a0aec0" />
-                          <Tooltip contentStyle={{ backgroundColor: '#1a202c', border: '1px solid #333' }} />
-                          <Legend />
-                          <Bar dataKey="preConstruction" name="준공 전 미분양" stackId="a" fill="#eab308" radius={[0, 0, 4, 4]} />
-                          <Bar dataKey="postConstruction" name="준공 후 미분양(악성)" stackId="a" fill="#ef4444" radius={[4, 4, 0, 0]} />
-                        </BarChart>
-                      </ResponsiveContainer>
-                    </div>
+                    <>
+                      <div style={{ width: '100%', height: 260 }}>
+                        <ResponsiveContainer>
+                          <BarChart data={supplyHistory}>
+                            <CartesianGrid strokeDasharray="3 3" stroke="#333" />
+                            <XAxis dataKey="month" stroke="#a0aec0" tick={{ fontSize: 11 }} />
+                            <YAxis stroke="#a0aec0" />
+                            <Tooltip contentStyle={{ backgroundColor: '#1a202c', border: '1px solid #333' }} formatter={(v, name) => [v.toLocaleString()+'세대', name]} />
+                            <Legend />
+                            <Bar dataKey="preConstruction" name="준공 전 미분양" stackId="a" fill="#eab308" radius={[0, 0, 4, 4]} />
+                            <Bar dataKey="postConstruction" name="준공 후 미분양(악성)" stackId="a" fill="#ef4444" radius={[4, 4, 0, 0]} />
+                          </BarChart>
+                        </ResponsiveContainer>
+                      </div>
+                      {/* 최신월 합계 요약 */}
+                      {(() => {
+                        const latest = supplyHistory[supplyHistory.length - 1];
+                        const total = (latest.preConstruction || 0) + (latest.postConstruction || 0);
+                        const post = latest.postConstruction || 0;
+                        const pre = latest.preConstruction || 0;
+                        return (
+                          <div style={{ marginTop: '1rem', display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+                            <div style={{ flex: 1, padding: '1rem', background: 'rgba(234,179,8,0.1)', borderRadius: '8px', border: '1px solid #eab308', textAlign: 'center' }}>
+                              <p style={{ color: '#a0aec0', fontSize: '0.8rem', margin: '0 0 0.3rem' }}>준공 전 미분양</p>
+                              <p style={{ color: '#eab308', fontSize: '1.5rem', fontWeight: 'bold', margin: 0 }}>{pre.toLocaleString()} 세대</p>
+                            </div>
+                            <div style={{ flex: 1, padding: '1rem', background: 'rgba(239,68,68,0.1)', borderRadius: '8px', border: '1px solid #ef4444', textAlign: 'center' }}>
+                              <p style={{ color: '#a0aec0', fontSize: '0.8rem', margin: '0 0 0.3rem' }}>준공 후 미분양 (악성)</p>
+                              <p style={{ color: '#ef4444', fontSize: '1.5rem', fontWeight: 'bold', margin: 0 }}>{post.toLocaleString()} 세대</p>
+                            </div>
+                            <div style={{ flex: 1, padding: '1rem', background: 'rgba(255,255,255,0.05)', borderRadius: '8px', border: '1px solid #555', textAlign: 'center' }}>
+                              <p style={{ color: '#a0aec0', fontSize: '0.8rem', margin: '0 0 0.3rem' }}>총 미분양 합계</p>
+                              <p style={{ color: '#fff', fontSize: '1.5rem', fontWeight: 'bold', margin: 0 }}>{total.toLocaleString()} 세대</p>
+                            </div>
+                          </div>
+                        );
+                      })()}
+                    </>
                   ) : <p style={{ color: 'var(--text-muted)', padding: '1rem' }}>미분양 데이터 수집 중 (API 권한 동기화 대기)</p>}
                 </div>
 
